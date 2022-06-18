@@ -176,7 +176,7 @@ def main():
 
     start = time.time()
     states = None
-    next_char = tf.constant(['ROMEO:', 'ROMEO:', 'ROMEO:', 'ROMEO:', 'ROMEO:'])
+    next_char = tf.constant(['MICHAEL:', 'MICHAEL:', 'MICHAEL:', 'MICHAEL:', 'MICHAEL:'])
     result = [next_char]
 
     for n in range(1000):
